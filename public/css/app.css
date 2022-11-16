@@ -1,6 +1,12 @@
+*{
+    border: 1px solid red;
+}
 p{
     display: flex;
     justify-content: space-around;
     color:red;
 
+}
+nav ul{
+    list-style: none;
 }
