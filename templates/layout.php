@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="/public/css/app.css" rel="stylesheet">
     <title><?php if (isset($data['title'])) echo $data['title']; ?> - Plugo</title>
     <?php if (isset($data['description'])) { ?>
       <meta name="description" content="<?= $data['description'] ?>">
